@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JustClean Reports Portal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f6f8fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00b2ff, #7b2ff7);
+      color: white;
+      text-align: center;
+      padding: 40px 20px 30px 20px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 10px 0 5px 0;
+      font-size: 36px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: lowercase;
+    }
+
+    .branding-subtitle {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    header p {
+      font-size: 16px;
+      opacity: 0.8;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .report-card {
+      background-color: white;
+      border-radius: 20px;
+      padding: 25px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .report-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .report-title {
+      font-size: 20px;
+      color: #7b2ff7;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      padding: 25px;
+      background-color: #fff;
+      border-top: 1px solid #eee;
+      color: #777;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.03);
+    }
+
+    a {
+      color: #00b2ff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- الشعار -->
+    <div style="display:flex; justify-content:center; align-items:center; margin-top:10px; margin-bottom:10px;">
+      <img 
+        src="Capture.PNG" 
+        alt="JustClean Logo" 
+        style="
+          width: 130px;
+          height: auto;
+          object-fit: contain;
+          background-color: white;
+          border-radius: 20px;
+          padding: 8px;
+          box-shadow: 0 4px 15px rgba(156, 39, 176, 0.15);
+        "
+      >
+    </div>
+
+    <!-- العنوان -->
+    <h1><i class="fas fa-broom"></i> justclean</h1>
+    <div class="branding-subtitle">Cleaner productivity</div>
+    <p>Log issues and reports easily and professionally</p>
+  </header>
+
+  <main>
+    <div class="report-card">
+      <div class="report-title"><i class="fas fa-exclamation-circle"></i> Laundry Issue Report</div>
+      <p>The laundry order was marked as delivered, but the customer reported that it wasn’t received. The service provider mentioned the status was changed by mistake.</p>
+    </div>
+
+    <div class="report-card">
+      <div class="report-title"><i class="fas fa-phone"></i> Customer Communication</div>
+      <p>We’ve tried to contact the customer several times again until now but there was no response. We’ll continue follow-up later and handle the case accordingly.</p>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 JustClean Team — Designed for internal use
+  </footer>
+
+</body>
+</html>
